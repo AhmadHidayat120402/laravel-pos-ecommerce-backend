@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.logo-labbaik{
+    font-family: Pacifico;
+}
+.deskripsi {
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#footer {
+    /* flex-shrink: none; */
+    display: flex;
+    width: 70%;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 0px;
+    line-height: 50px;
+    /* background: #333; */
+    color: grey;
+    position: absolute;
+    bottom: 10px;
+}
