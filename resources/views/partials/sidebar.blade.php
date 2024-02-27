@@ -3,7 +3,7 @@
         <li class="nav-item">
             <a class="nav-link" href="/admin/">
                 <span class="menu-title">Dashboard</span>
-                <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+                <i class="mdi mdi-view-dashboard menu-icon"></i>
             </a>
         </li>
         <li class="nav-item">
@@ -15,28 +15,28 @@
         <li class="nav-item">
             <a class="nav-link" href="/admin/product">
                 <span class="menu-title">Product</span>
-                <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+                <i class="mdi mdi-cube menu-icon"></i>
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/admin/bph">
+            <a class="nav-link" href="/admin/category">
                 <span class="menu-title">Category</span>
-                <i class="mdi mdi-contacts menu-icon"></i>
+                <i class="mdi mdi-dropbox menu-icon"></i>
             </a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="/admin/bph">
                 <span class="menu-title">Order</span>
-                <i class="mdi mdi-contacts menu-icon"></i>
+                <i class="mdi mdi-shopping menu-icon"></i>
             </a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="/admin/bph">
                 <span class="menu-title">Report</span>
-                <i class="mdi mdi-contacts menu-icon"></i>
+                <i class="mdi mdi-file-document menu-icon"></i>
             </a>
         </li>
-        <li class="nav-item">
+        {{-- <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false"
                 aria-controls="ui-basic">
                 <span class="menu-title">Tes</span>
@@ -53,7 +53,7 @@
                     <li class="nav-item"> <a class="nav-link" href="/admin/kwu">KWU</a></li>
                 </ul>
             </div>
-        </li>
+        </li> --}}
 
     </ul>
 </nav>
