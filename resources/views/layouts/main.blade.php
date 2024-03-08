@@ -113,7 +113,6 @@
                 <div class="card mt-3">
                     @yield('content')
                 </div>
-
                 <!-- partial:partials/_footer.html -->
                 @include('partials.footer')
                 <!-- partial -->
