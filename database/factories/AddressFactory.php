@@ -25,7 +25,7 @@ class AddressFactory extends Factory
             'district_id' => $this->faker->numberBetween(1, 100),
             'postal_code' => $this->faker->postcode,
             'user_id' => $this->faker->numberBetween(1, 10),
-            'id_default' => $this->faker->boolean,
+            'is_default' => $this->faker->boolean,
         ];
     }
 }

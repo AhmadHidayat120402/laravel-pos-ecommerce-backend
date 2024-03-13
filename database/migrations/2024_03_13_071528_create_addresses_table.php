@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('district_id');
             $table->string('postal_code');
             $table->foreignId('user_id')->constrained('users')->onDelete('cascade');
-            $table->boolean('id_default')->default(false);
+            $table->boolean('is_default')->default(false);
             $table->softDeletes();
             $table->timestamps();
         });
