@@ -25,7 +25,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/admin/bph">
+            <a class="nav-link" href="/admin/order">
                 <span class="menu-title">Order</span>
                 <i class="mdi mdi-shopping menu-icon"></i>
             </a>

@@ -4,7 +4,9 @@ use App\Http\Controllers\Api\AddressController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\Api\CallbackController;
 use App\Http\Controllers\Api\CategoryController;
+use App\Http\Controllers\Api\OrderController;
 use App\Http\Controllers\Api\ProductController;
 
 /*
@@ -32,3 +34,5 @@ Route::get('/categories', [CategoryController::class, 'index']);
 Route::get('/products', [ProductController::class, 'index']);
 
 Route::apiResource('addresses', AddressController::class)->middleware('auth:sanctum');
+Route::post('/order', [OrderController::class, 'order'])->middleware('auth:sanctum');
+Route::post('/callback', [CallbackController::class, 'callback']);

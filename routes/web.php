@@ -1,11 +1,12 @@
 <?php
 
-use App\Http\Controllers\CategoryController;
-use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\ProductController;
-use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\OrderController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,6 +44,12 @@ Route::prefix('admin')->group(function () {
     Route::post('/saveCategory', [CategoryController::class, 'store']);
     Route::put('/category/{id}', [CategoryController::class, 'update']);
     Route::delete('/category/{id}', [CategoryController::class, 'destroy']);
+
+    // order
+    Route::get('/order', [OrderController::class, 'index']);
+    Route::post('/saveOrder', [OrderController::class, 'store']);
+    Route::put('/order/{id}', [OrderController::class, 'update']);
+    Route::delete('/order/{id}', [OrderController::class, 'destroy']);
 });
 Auth::routes();
 
