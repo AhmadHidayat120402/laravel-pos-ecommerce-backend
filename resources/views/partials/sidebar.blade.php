@@ -7,6 +7,12 @@
             </a>
         </li>
         <li class="nav-item">
+            <a class="nav-link" href="/admin/pos">
+                <span class="menu-title">POS</span>
+                <i class="mdi mdi-view-dashboard menu-icon"></i>
+            </a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link" href="/admin/user">
                 <span class="menu-title">User</span>
                 <i class="mdi mdi-account-multiple menu-icon"></i>
